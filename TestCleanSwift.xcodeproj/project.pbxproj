@@ -12,6 +12,12 @@
 		5A3A75F5218A49840052696B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A3A75F3218A49840052696B /* Main.storyboard */; };
 		5A3A75F7218A49870052696B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5A3A75F6218A49870052696B /* Assets.xcassets */; };
 		5A3A75FA218A49870052696B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5A3A75F8218A49870052696B /* LaunchScreen.storyboard */; };
+		5A3A7607218A4A220052696B /* helloworldPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3A7601218A4A220052696B /* helloworldPresenter.swift */; };
+		5A3A7608218A4A220052696B /* helloworldWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3A7602218A4A220052696B /* helloworldWorker.swift */; };
+		5A3A7609218A4A220052696B /* helloworldRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3A7603218A4A220052696B /* helloworldRouter.swift */; };
+		5A3A760A218A4A220052696B /* helloworldModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3A7604218A4A220052696B /* helloworldModels.swift */; };
+		5A3A760B218A4A220052696B /* helloworldViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3A7605218A4A220052696B /* helloworldViewController.swift */; };
+		5A3A760C218A4A220052696B /* helloworldInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A3A7606218A4A220052696B /* helloworldInteractor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		5A3A75F6218A49870052696B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5A3A75F9218A49870052696B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5A3A75FB218A49870052696B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5A3A7601218A4A220052696B /* helloworldPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloworldPresenter.swift; sourceTree = "<group>"; };
+		5A3A7602218A4A220052696B /* helloworldWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloworldWorker.swift; sourceTree = "<group>"; };
+		5A3A7603218A4A220052696B /* helloworldRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloworldRouter.swift; sourceTree = "<group>"; };
+		5A3A7604218A4A220052696B /* helloworldModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloworldModels.swift; sourceTree = "<group>"; };
+		5A3A7605218A4A220052696B /* helloworldViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloworldViewController.swift; sourceTree = "<group>"; };
+		5A3A7606218A4A220052696B /* helloworldInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = helloworldInteractor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,12 @@
 				5A3A75F6218A49870052696B /* Assets.xcassets */,
 				5A3A75F8218A49870052696B /* LaunchScreen.storyboard */,
 				5A3A75FB218A49870052696B /* Info.plist */,
+				5A3A7601218A4A220052696B /* helloworldPresenter.swift */,
+				5A3A7602218A4A220052696B /* helloworldWorker.swift */,
+				5A3A7603218A4A220052696B /* helloworldRouter.swift */,
+				5A3A7604218A4A220052696B /* helloworldModels.swift */,
+				5A3A7605218A4A220052696B /* helloworldViewController.swift */,
+				5A3A7606218A4A220052696B /* helloworldInteractor.swift */,
 			);
 			path = TestCleanSwift;
 			sourceTree = "<group>";
@@ -135,8 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A3A760B218A4A220052696B /* helloworldViewController.swift in Sources */,
 				5A3A75F2218A49840052696B /* ViewController.swift in Sources */,
+				5A3A7607218A4A220052696B /* helloworldPresenter.swift in Sources */,
 				5A3A75F0218A49840052696B /* AppDelegate.swift in Sources */,
+				5A3A760C218A4A220052696B /* helloworldInteractor.swift in Sources */,
+				5A3A7609218A4A220052696B /* helloworldRouter.swift in Sources */,
+				5A3A7608218A4A220052696B /* helloworldWorker.swift in Sources */,
+				5A3A760A218A4A220052696B /* helloworldModels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
